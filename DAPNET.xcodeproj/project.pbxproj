@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9A6C5C8247CF5B400B1E62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */; };
+		E9A6C5CA247CF5B400B1E62D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */; };
+		E9A6C5CC247CF5B400B1E62D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5CB247CF5B400B1E62D /* ContentView.swift */; };
+		E9A6C5CE247CF5C500B1E62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */; };
+		E9A6C5D1247CF5C500B1E62D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5D0247CF5C500B1E62D /* Preview Assets.xcassets */; };
+		E9A6C5D4247CF5C500B1E62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5D2247CF5C500B1E62D /* LaunchScreen.storyboard */; };
+		E9A6C5DF247CF5C600B1E62D /* DAPNETTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5DE247CF5C600B1E62D /* DAPNETTests.swift */; };
+		E9A6C5EA247CF5C700B1E62D /* DAPNETUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5E9247CF5C700B1E62D /* DAPNETUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9A6C5DB247CF5C600B1E62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A6C5BC247CF5B400B1E62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A6C5C3247CF5B400B1E62D;
+			remoteInfo = DAPNET;
+		};
+		E9A6C5E6247CF5C600B1E62D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9A6C5BC247CF5B400B1E62D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9A6C5C3247CF5B400B1E62D;
+			remoteInfo = DAPNET;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9A6C5C4247CF5B400B1E62D /* DAPNET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAPNET.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		E9A6C5CB247CF5B400B1E62D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E9A6C5D0247CF5C500B1E62D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E9A6C5D3247CF5C500B1E62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E9A6C5D5247CF5C500B1E62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A6C5DA247CF5C600B1E62D /* DAPNETTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAPNETTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A6C5DE247CF5C600B1E62D /* DAPNETTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPNETTests.swift; sourceTree = "<group>"; };
+		E9A6C5E0247CF5C600B1E62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A6C5E5247CF5C600B1E62D /* DAPNETUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAPNETUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9A6C5E9247CF5C700B1E62D /* DAPNETUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPNETUITests.swift; sourceTree = "<group>"; };
+		E9A6C5EB247CF5C700B1E62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9A6C5C1247CF5B400B1E62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5D7247CF5C600B1E62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5E2247CF5C600B1E62D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9A6C5BB247CF5B400B1E62D = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5C6247CF5B400B1E62D /* DAPNET */,
+				E9A6C5DD247CF5C600B1E62D /* DAPNETTests */,
+				E9A6C5E8247CF5C600B1E62D /* DAPNETUITests */,
+				E9A6C5C5247CF5B400B1E62D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9A6C5C5247CF5B400B1E62D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5C4247CF5B400B1E62D /* DAPNET.app */,
+				E9A6C5DA247CF5C600B1E62D /* DAPNETTests.xctest */,
+				E9A6C5E5247CF5C600B1E62D /* DAPNETUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9A6C5C6247CF5B400B1E62D /* DAPNET */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */,
+				E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */,
+				E9A6C5CB247CF5B400B1E62D /* ContentView.swift */,
+				E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */,
+				E9A6C5D2247CF5C500B1E62D /* LaunchScreen.storyboard */,
+				E9A6C5D5247CF5C500B1E62D /* Info.plist */,
+				E9A6C5CF247CF5C500B1E62D /* Preview Content */,
+			);
+			path = DAPNET;
+			sourceTree = "<group>";
+		};
+		E9A6C5CF247CF5C500B1E62D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5D0247CF5C500B1E62D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E9A6C5DD247CF5C600B1E62D /* DAPNETTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5DE247CF5C600B1E62D /* DAPNETTests.swift */,
+				E9A6C5E0247CF5C600B1E62D /* Info.plist */,
+			);
+			path = DAPNETTests;
+			sourceTree = "<group>";
+		};
+		E9A6C5E8247CF5C600B1E62D /* DAPNETUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5E9247CF5C700B1E62D /* DAPNETUITests.swift */,
+				E9A6C5EB247CF5C700B1E62D /* Info.plist */,
+			);
+			path = DAPNETUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9A6C5C3247CF5B400B1E62D /* DAPNET */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A6C5EE247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNET" */;
+			buildPhases = (
+				E9A6C5C0247CF5B400B1E62D /* Sources */,
+				E9A6C5C1247CF5B400B1E62D /* Frameworks */,
+				E9A6C5C2247CF5B400B1E62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DAPNET;
+			productName = DAPNET;
+			productReference = E9A6C5C4247CF5B400B1E62D /* DAPNET.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9A6C5D9247CF5C600B1E62D /* DAPNETTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A6C5F1247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNETTests" */;
+			buildPhases = (
+				E9A6C5D6247CF5C600B1E62D /* Sources */,
+				E9A6C5D7247CF5C600B1E62D /* Frameworks */,
+				E9A6C5D8247CF5C600B1E62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A6C5DC247CF5C600B1E62D /* PBXTargetDependency */,
+			);
+			name = DAPNETTests;
+			productName = DAPNETTests;
+			productReference = E9A6C5DA247CF5C600B1E62D /* DAPNETTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E9A6C5E4247CF5C600B1E62D /* DAPNETUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9A6C5F4247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNETUITests" */;
+			buildPhases = (
+				E9A6C5E1247CF5C600B1E62D /* Sources */,
+				E9A6C5E2247CF5C600B1E62D /* Frameworks */,
+				E9A6C5E3247CF5C600B1E62D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9A6C5E7247CF5C600B1E62D /* PBXTargetDependency */,
+			);
+			name = DAPNETUITests;
+			productName = DAPNETUITests;
+			productReference = E9A6C5E5247CF5C600B1E62D /* DAPNETUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9A6C5BC247CF5B400B1E62D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1140;
+				LastUpgradeCheck = 1140;
+				ORGANIZATIONNAME = "Thomas Gatzweiler";
+				TargetAttributes = {
+					E9A6C5C3247CF5B400B1E62D = {
+						CreatedOnToolsVersion = 11.4.1;
+					};
+					E9A6C5D9247CF5C600B1E62D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E9A6C5C3247CF5B400B1E62D;
+					};
+					E9A6C5E4247CF5C600B1E62D = {
+						CreatedOnToolsVersion = 11.4.1;
+						TestTargetID = E9A6C5C3247CF5B400B1E62D;
+					};
+				};
+			};
+			buildConfigurationList = E9A6C5BF247CF5B400B1E62D /* Build configuration list for PBXProject "DAPNET" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9A6C5BB247CF5B400B1E62D;
+			productRefGroup = E9A6C5C5247CF5B400B1E62D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9A6C5C3247CF5B400B1E62D /* DAPNET */,
+				E9A6C5D9247CF5C600B1E62D /* DAPNETTests */,
+				E9A6C5E4247CF5C600B1E62D /* DAPNETUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9A6C5C2247CF5B400B1E62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A6C5D4247CF5C500B1E62D /* LaunchScreen.storyboard in Resources */,
+				E9A6C5D1247CF5C500B1E62D /* Preview Assets.xcassets in Resources */,
+				E9A6C5CE247CF5C500B1E62D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5D8247CF5C600B1E62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5E3247CF5C600B1E62D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9A6C5C0247CF5B400B1E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A6C5C8247CF5B400B1E62D /* AppDelegate.swift in Sources */,
+				E9A6C5CA247CF5B400B1E62D /* SceneDelegate.swift in Sources */,
+				E9A6C5CC247CF5B400B1E62D /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5D6247CF5C600B1E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A6C5DF247CF5C600B1E62D /* DAPNETTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9A6C5E1247CF5C600B1E62D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9A6C5EA247CF5C700B1E62D /* DAPNETUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9A6C5DC247CF5C600B1E62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A6C5C3247CF5B400B1E62D /* DAPNET */;
+			targetProxy = E9A6C5DB247CF5C600B1E62D /* PBXContainerItemProxy */;
+		};
+		E9A6C5E7247CF5C600B1E62D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9A6C5C3247CF5B400B1E62D /* DAPNET */;
+			targetProxy = E9A6C5E6247CF5C600B1E62D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9A6C5D2247CF5C500B1E62D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9A6C5D3247CF5C500B1E62D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9A6C5EC247CF5C700B1E62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E9A6C5ED247CF5C700B1E62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9A6C5EF247CF5C700B1E62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DAPNET/Preview Content\"";
+				DEVELOPMENT_TEAM = 695994A4P7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DAPNET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9A6C5F0247CF5C700B1E62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"DAPNET/Preview Content\"";
+				DEVELOPMENT_TEAM = 695994A4P7;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = DAPNET/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNET;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E9A6C5F2247CF5C700B1E62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695994A4P7;
+				INFOPLIST_FILE = DAPNETTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNETTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAPNET.app/DAPNET";
+			};
+			name = Debug;
+		};
+		E9A6C5F3247CF5C700B1E62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695994A4P7;
+				INFOPLIST_FILE = DAPNETTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNETTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DAPNET.app/DAPNET";
+			};
+			name = Release;
+		};
+		E9A6C5F5247CF5C700B1E62D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695994A4P7;
+				INFOPLIST_FILE = DAPNETUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNETUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAPNET;
+			};
+			name = Debug;
+		};
+		E9A6C5F6247CF5C700B1E62D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 695994A4P7;
+				INFOPLIST_FILE = DAPNETUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = de.dl2ic.DAPNETUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DAPNET;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9A6C5BF247CF5B400B1E62D /* Build configuration list for PBXProject "DAPNET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A6C5EC247CF5C700B1E62D /* Debug */,
+				E9A6C5ED247CF5C700B1E62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A6C5EE247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNET" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A6C5EF247CF5C700B1E62D /* Debug */,
+				E9A6C5F0247CF5C700B1E62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A6C5F1247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNETTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A6C5F2247CF5C700B1E62D /* Debug */,
+				E9A6C5F3247CF5C700B1E62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9A6C5F4247CF5C700B1E62D /* Build configuration list for PBXNativeTarget "DAPNETUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9A6C5F5247CF5C700B1E62D /* Debug */,
+				E9A6C5F6247CF5C700B1E62D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9A6C5BC247CF5B400B1E62D /* Project object */;
+}
