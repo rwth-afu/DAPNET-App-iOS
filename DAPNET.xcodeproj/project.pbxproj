@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E9774C4B247E651000FFF416 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774C4A247E650F00FFF416 /* MainView.swift */; };
+		E9774C4D247E755300FFF416 /* NewCallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9774C4C247E755300FFF416 /* NewCallView.swift */; };
+		E99D940A247D588D00B79D8F /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E99D9409247D588D00B79D8F /* CallViewModel.swift */; };
 		E9A6C5C8247CF5B400B1E62D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */; };
 		E9A6C5CA247CF5B400B1E62D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */; };
-		E9A6C5CC247CF5B400B1E62D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5CB247CF5B400B1E62D /* ContentView.swift */; };
+		E9A6C5CC247CF5B400B1E62D /* CallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5CB247CF5B400B1E62D /* CallView.swift */; };
 		E9A6C5CE247CF5C500B1E62D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */; };
 		E9A6C5D1247CF5C500B1E62D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5D0247CF5C500B1E62D /* Preview Assets.xcassets */; };
 		E9A6C5D4247CF5C500B1E62D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9A6C5D2247CF5C500B1E62D /* LaunchScreen.storyboard */; };
 		E9A6C5DF247CF5C600B1E62D /* DAPNETTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5DE247CF5C600B1E62D /* DAPNETTests.swift */; };
 		E9A6C5EA247CF5C700B1E62D /* DAPNETUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5E9247CF5C700B1E62D /* DAPNETUITests.swift */; };
+		E9A6C5FC247CF99200B1E62D /* Call.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5FB247CF99200B1E62D /* Call.swift */; };
+		E9A6C5FE247D03D100B1E62D /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9A6C5FD247D03D000B1E62D /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +40,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E9774C4A247E650F00FFF416 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		E9774C4C247E755300FFF416 /* NewCallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCallView.swift; sourceTree = "<group>"; };
+		E99D9409247D588D00B79D8F /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
 		E9A6C5C4247CF5B400B1E62D /* DAPNET.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DAPNET.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		E9A6C5CB247CF5B400B1E62D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E9A6C5CB247CF5B400B1E62D /* CallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallView.swift; sourceTree = "<group>"; };
 		E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E9A6C5D0247CF5C500B1E62D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		E9A6C5D3247CF5C500B1E62D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +57,8 @@
 		E9A6C5E5247CF5C600B1E62D /* DAPNETUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DAPNETUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9A6C5E9247CF5C700B1E62D /* DAPNETUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DAPNETUITests.swift; sourceTree = "<group>"; };
 		E9A6C5EB247CF5C700B1E62D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E9A6C5FB247CF99200B1E62D /* Call.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Call.swift; sourceTree = "<group>"; };
+		E9A6C5FD247D03D000B1E62D /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,13 +109,18 @@
 		E9A6C5C6247CF5B400B1E62D /* DAPNET */ = {
 			isa = PBXGroup;
 			children = (
+				E9A6C5FA247CF97900B1E62D /* models */,
 				E9A6C5C7247CF5B400B1E62D /* AppDelegate.swift */,
+				E9A6C5FD247D03D000B1E62D /* NetworkManager.swift */,
 				E9A6C5C9247CF5B400B1E62D /* SceneDelegate.swift */,
-				E9A6C5CB247CF5B400B1E62D /* ContentView.swift */,
+				E9A6C5CB247CF5B400B1E62D /* CallView.swift */,
+				E99D9409247D588D00B79D8F /* CallViewModel.swift */,
 				E9A6C5CD247CF5C500B1E62D /* Assets.xcassets */,
 				E9A6C5D2247CF5C500B1E62D /* LaunchScreen.storyboard */,
 				E9A6C5D5247CF5C500B1E62D /* Info.plist */,
 				E9A6C5CF247CF5C500B1E62D /* Preview Content */,
+				E9774C4A247E650F00FFF416 /* MainView.swift */,
+				E9774C4C247E755300FFF416 /* NewCallView.swift */,
 			);
 			path = DAPNET;
 			sourceTree = "<group>";
@@ -134,6 +149,14 @@
 				E9A6C5EB247CF5C700B1E62D /* Info.plist */,
 			);
 			path = DAPNETUITests;
+			sourceTree = "<group>";
+		};
+		E9A6C5FA247CF97900B1E62D /* models */ = {
+			isa = PBXGroup;
+			children = (
+				E9A6C5FB247CF99200B1E62D /* Call.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,9 +290,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E99D940A247D588D00B79D8F /* CallViewModel.swift in Sources */,
+				E9774C4B247E651000FFF416 /* MainView.swift in Sources */,
 				E9A6C5C8247CF5B400B1E62D /* AppDelegate.swift in Sources */,
+				E9A6C5FC247CF99200B1E62D /* Call.swift in Sources */,
+				E9A6C5FE247D03D100B1E62D /* NetworkManager.swift in Sources */,
+				E9774C4D247E755300FFF416 /* NewCallView.swift in Sources */,
 				E9A6C5CA247CF5B400B1E62D /* SceneDelegate.swift in Sources */,
-				E9A6C5CC247CF5B400B1E62D /* ContentView.swift in Sources */,
+				E9A6C5CC247CF5B400B1E62D /* CallView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
