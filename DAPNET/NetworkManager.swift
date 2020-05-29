@@ -38,14 +38,14 @@ let jsonDecoder: JSONDecoder = {
     return decoder
 }()
 
-let urlSessionConfig: URLSessionConfiguration = {
+func urlSessionConfig(username: String, password: String) -> URLSessionConfiguration {
     let cfg = URLSessionConfiguration.default
-    let userPasswordString = "dl2ic:test"
+    let userPasswordString = "\(username):\(password)"
     let base64EncodedCredential = Data(userPasswordString.utf8).base64EncodedString()
     let authString = "Basic \(base64EncodedCredential)"
     cfg.httpAdditionalHeaders = ["Authorization" : authString]
     return cfg
-}()
+}
 
 protocol ApiResource {
     associatedtype ModelType: Decodable
@@ -53,8 +53,8 @@ protocol ApiResource {
 }
  
 extension ApiResource {
-    var url: URL {
-        var components = URLComponents(string: "http://dapnetdc2.db0sda.ampr.org")!
+    func url(server: String) -> URL {
+        var components = URLComponents(string: "http://\(server)") ?? URLComponents(string: "http://dapnetdc2.db0sda.ampr.org")!
         components.path = methodPath
         components.queryItems = [
             URLQueryItem(name: "limit", value: "20"),
@@ -86,7 +86,8 @@ extension ApiRequest: NetworkRequest {
     }
     
     func load(withCompletion completion: @escaping ([Resource.ModelType]?) -> Void) {
-        load(resource.url, withCompletion: completion)
+        let server = UserDefaults.standard.object(forKey: "server") as? String ?? "dapnetdc2.db0sda.ampr.org";
+        load(resource.url(server: server), withCompletion: completion)
     }
 }
 
@@ -103,7 +104,10 @@ protocol NetworkRequest: AnyObject {
 
 extension NetworkRequest {
     fileprivate func load(_ url: URL, withCompletion completion: @escaping (ModelType?) -> Void) {
-        let session = URLSession(configuration: urlSessionConfig, delegate: nil, delegateQueue: .main)
+        let username = UserDefaults.standard.object(forKey: "username") as? String ?? "";
+        let password = UserDefaults.standard.object(forKey: "password") as? String ?? "";
+
+        let session = URLSession(configuration: urlSessionConfig(username: username, password: password), delegate: nil, delegateQueue: .main)
         let task = session.dataTask(with: url, completionHandler: { [weak self] (data: Data?, response: URLResponse?, error: Error?) -> Void in
             guard let data = data else {
                 completion(nil)

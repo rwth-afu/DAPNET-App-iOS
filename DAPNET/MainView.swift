@@ -18,14 +18,20 @@ struct MainView: View {
                     self.showNewCallView = true
                 }) {
                     Image(systemName: "square.and.pencil")
-                })
+                }).sheet(isPresented: $showNewCallView) {
+                    NewCallView(showSheetView: self.$showNewCallView)
+                }
             }
             .tabItem({
                 Image(systemName: "paperplane")
                 Text("Calls")
-            }).sheet(isPresented: $showNewCallView) {
-                NewCallView(showSheetView: self.$showNewCallView)
-            }
+            })
+            NavigationView() {
+                SettingsView().navigationBarTitle("Settings")
+            }.tabItem({
+                Image(systemName: "gear")
+                Text("Settings")
+            })
         }
     }
 }

@@ -56,12 +56,12 @@ struct NewCallViewForm: View {
 
             }
             
-            Section {
+            Section(header: Text("Recipients")) {
                 TextField("Subscribers", text: $subscribers)
                 TextField("Subscriber Groups", text: $subscriberGroups)
             }
             
-            Section {
+            Section(header: Text("Distribution")) {
                 TextField("Transmitters", text: $transmitters)
                 TextField("Transmitter Groups", text: $transmitterGroups)
             }

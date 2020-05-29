@@ -62,11 +62,16 @@ struct CallCell: View {
                     .frame(maxWidth: .infinity, alignment: .leading)
             }
             HStack() {
-                Text("To: ")
                 ForEach(0 ..< (call.recipients.subscribers ?? []).count) { i in
-                    Text(self.call.recipients.subscribers![i].uppercased())
+                    ZStack {
+                        RoundedRectangle(cornerRadius: 8.0).fill().foregroundColor(.blue)
+                        Text(self.call.recipients.subscribers![i].uppercased()).padding(.horizontal, 8.0)
+                            .foregroundColor(.white)
+                            .layoutPriority(1000.0)
+                    }
                 }
-            }.font(.footnote).padding(.top).frame(maxWidth: .infinity)
+                Spacer().frame(maxWidth: .infinity)
+            }.font(.footnote)
         }
     }
 }
